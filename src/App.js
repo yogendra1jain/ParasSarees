@@ -17,7 +17,7 @@ import OrdersScreen from './screens/OrdersScreen';
 
 import axios from 'axios';
 
-axios.defaults.baseURL = 'http://parassaree.herokuapp.com/' // the prefix of the URL
+axios.defaults.baseURL = 'https://parassaree.herokuapp.com/' // the prefix of the URL
 axios.defaults.headers.get['Accept'] = 'application/json'   // default header for all get request
 axios.defaults.headers.post['Accept'] = 'application/json'  // default header for all POST request
 
